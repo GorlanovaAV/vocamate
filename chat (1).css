@@ -43,7 +43,7 @@
 
 /*обёртка для чата на сайте*/
 .pit-chat-area {
-    background-color: #dcdce0;
+    background-color: #c8c8c8; /*#dcdce0*/
     margin: 0 20px 65px 0;
     padding: 40px 0 0 0;
     border: none;
