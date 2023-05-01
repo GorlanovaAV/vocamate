@@ -47,7 +47,8 @@
     margin: 0 20px 65px 0;
     padding: 40px 0 0 0;
     border: none;
-	position: fixed;
+    max-width: 650px;
+	/*position: fixed;
 	margin: 0 80px 20px 0;
 	bottom: 0;
 	right: 0;
@@ -55,11 +56,11 @@
 	max-height: 450px;
 	width: calc(100% - 65px);
 	width: -webkit-calc(100% - 65px);
-	max-width: 650px;
+
 	z-index: 10000;
 	background-color: #5bb031;
 	padding: 40px 10px 10px 10px;
-	border-radius: 15px;
+	border-radius: 15px;*/
 }
 
 #pit-chat-area {
