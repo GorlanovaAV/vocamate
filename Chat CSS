@@ -16,7 +16,7 @@
 	max-height: 450px;
 	width: calc(100% - 65px);
 	width: -webkit-calc(100% - 65px);
-	max-width: 700px;
+	max-width: 1000px;
 	z-index: 10000;
 	background-color: #5bb031;
 	padding: 40px 10px 10px 10px;
