@@ -85,9 +85,9 @@ div.k-message-box .pit-uploadfile-image {
 
 /*сообщения клиента*/
 .k-chat .k-alt .k-bubble {
-    border-color: #dcdbdb;
+    border-color: #6ad4958c;
     color: #222;
-    background-color: #dedede;
+    background-color: #a0de9975;
 	background-image: none,linear-gradient(to bottom,rgba(255,255,255,.3) 0,rgba(255,255,255,0) 100%);
     margin-bottom: 5px;
 }
@@ -109,10 +109,10 @@ div.k-message-box .pit-uploadfile-image {
 
 /*контент сообщения бота/опера*/
 .k-card-body > .ac-container > .ac-container:last-child {
-    background-color: #bcd9f5;
+    background-color: #ffffff;
 	background-image: none,linear-gradient(to bottom,rgba(255,255,255,.3) 0,rgba(255,255,255,0) 100%);
     color: #222;
-	border-color: #b1d4f5;
+	border-color: #d1b6ff;
     border-width: 1px;
     border-style: solid;
 }
@@ -129,15 +129,15 @@ div.k-message-box .pit-uploadfile-image {
 
     /*кнопки*/
     .k-chat .k-quick-replies .k-quick-reply {
-        border-color: #26CF77;
-        color: #408020;
+        border-color: #beb8ff;
+        color: #0029e8;
         background-color: transparent;
         border-radius: 10px;
     }
         .k-chat .k-quick-replies .k-quick-reply:hover {
-            border-color: #26CF77;
+            border-color: #74a1ff;
             color: #fff;
-            background-color: #26CF77;
+            background-color: #469bff;
         }
 
 .sub-head {
@@ -145,7 +145,7 @@ div.k-message-box .pit-uploadfile-image {
 	/* text-decoration: underline; */
 	font-weight: bold;
 	font-size: 1.2em;
-    color: #324761;
+    color: #433261;
 	height: 2em;
     padding-top: 8px;
 }
@@ -156,7 +156,7 @@ div.k-message-box .pit-uploadfile-image {
 		background-color: #bcd9f5;
 	}
 	.k-state-selected .list-box-item {
-		background-color: #bcd9f5 !important;
+		background-color: #bcc0f5 !important;
 	}
 		.list-box-item:hover {
 			/* border: 0; */
@@ -164,3 +164,52 @@ div.k-message-box .pit-uploadfile-image {
 		/* margin: 2px 0 !important; */
 		background-color: #bdb4af;
 }					 
+
+
+
+.k-chat .k-message-list-content > * + * {
+	margin: 3px 0;
+}
+
+
+.k-chat {
+	width: calc(100% - 2px);
+	width: -webkit-calc(100% - 2px);
+	height: calc(100% - 2px);
+	height: -webkit-calc(100% - 2px);
+	/* opacity: 0; */
+	/* padding: 0 2px 2px 2px; */
+	/*margin: 0 7px;*/
+	border-color: #f9f9f9;
+	margin: 0;
+	max-width: 1024px;
+}}
+
+
+#chat-mask {
+	background-color: transparent;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	margin-top: 5px;
+	background-color: #ffffff;
+}
+
+
+@media only screen and (min-width : 320px) and (max-width : 1023px) {
+	.k-message-list.k-avatars {
+		width: 100%;
+	}
+
+	.k-chat .k-message-list-content {
+		padding: 16px 12px;
+	}
+
+.k-card-body > .ac-container > .ac-container:last-child {
+	border-radius: 15px;
+	border-top-left-radius: 2px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+	background-color: #e6c9ffb3;
+}
