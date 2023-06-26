@@ -1,4 +1,4 @@
-/*Ð´Ð¾Ð¿Ð¾Ð»Ð½Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ñ‹Ðµ ÑˆÑ€Ð¸Ñ„Ñ‚Ñ‹*/
+/*дополнительные шрифты*/
 @font-face{font-family:Geometria;font-weight:normal;font-style:normal;src:url(/Geometria/Geometria-Regular.eot);src:url(/Geometria/Geometria-Regular.eot?#iefix) format("embedded-opentype"),url(/Geometria/Geometria-Regular.woff) format("woff"),url(/Geometria/Geometria-Regular.ttf) format("truetype")}
 @font-face{font-family:Geometria;font-weight:normal;font-style:italic;src:url(/Geometria/Geometria-RegularItalic.eot);src:url(/Geometria/Geometria-RegularItalic.eot?#iefix) format("embedded-opentype"),url(/Geometria/Geometria-RegularItalic.woff) format("woff"),url(/Geometria/Geometria-RegularItalic.ttf) format("truetype")}
 @font-face{font-family:Geometria;font-weight:500;font-style:normal;src:url(/Geometria/Geometria-Medium.eot);src:url(/Geometria/Geometria-Medium.eot?#iefix) format("embedded-opentype"),url(/Geometria/Geometria-Medium.woff) format("woff"),url(/Geometria/Geometria-Medium.ttf) format("truetype")}
@@ -27,39 +27,26 @@
 #pit-chat-frame {
     border-radius: 16px;
 }
-/*ÐºÐ½Ð¾Ð¿ÐºÐ° Ð¾Ñ‚ÐºÑ€Ñ‹Ñ‚Ð¸Ñ/Ð·Ð°ÐºÑ€Ñ‹Ñ‚Ð¸Ñ Ñ‡Ð°Ñ‚Ð° Ð½Ð° ÑÐ°Ð¹Ñ‚Ðµ*/
+/*кнопка открытия/закрытия чата на сайте*/
 #pit-chat-btn {
     width: 47px;
     display: block !important;
 }
-/*ÐºÐ½Ð¾Ð¿ÐºÐ° Ð¾Ñ‚ÐºÑ€Ñ‹Ñ‚Ð¸Ñ/Ð·Ð°ÐºÑ€Ñ‹Ñ‚Ð¸Ñ Ñ‡Ð°Ñ‚Ð° Ð½Ð° ÑÐ°Ð¹Ñ‚Ðµ Ð² ÑÐ¾ÑÑ‚Ð¾ÑÐ½Ð¸Ð¸ "ÐžÑ‚ÐºÑ€Ñ‹Ñ‚ÑŒ"*/
+/*кнопка открытия/закрытия чата на сайте в состоянии "Открыть"*/
 #pit-chat-btn[data-state='on'] {
 }
 
-/*ÐºÐ½Ð¾Ð¿ÐºÐ° Ð¾Ñ‚ÐºÑ€Ñ‹Ñ‚Ð¸Ñ/Ð·Ð°ÐºÑ€Ñ‹Ñ‚Ð¸Ñ Ñ‡Ð°Ñ‚Ð° Ð½Ð° ÑÐ°Ð¹Ñ‚Ðµ Ð² ÑÐ¾ÑÑ‚Ð¾ÑÐ½Ð¸Ð¸ "Ð—Ð°ÐºÑ€Ñ‹Ñ‚ÑŒ"*/
+/*кнопка открытия/закрытия чата на сайте в состоянии "Закрыть"*/
 #pit-chat-btn[data-state='off'] {
     display: none !important;
 }
 
-/*Ð¾Ð±Ñ‘Ñ€Ñ‚ÐºÐ° Ð´Ð»Ñ Ñ‡Ð°Ñ‚Ð° Ð½Ð° ÑÐ°Ð¹Ñ‚Ðµ*/
+/*обёртка для чата на сайте*/
 .pit-chat-area {
     background-color: #dcdce0;
     margin: 0 20px 65px 0;
     padding: 40px 0 0 0;
     border: none;
-	position: fixed;
-	margin: 0 80px 20px 0;
-	bottom: 0;
-	right: 0;
-	height: 100%;
-	max-height: 450px;
-	width: calc(100% - 65px);
-	width: -webkit-calc(100% - 65px);
-	max-width: 650px;
-	z-index: 10000;
-	background-color: #5bb031;
-	padding: 40px 10px 10px 10px;
-	border-radius: 15px;
 }
 
 #pit-chat-area {
@@ -67,13 +54,13 @@
     box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.12);
     border-radius: 16px;
 }
-/*Ð·Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº Ð¾Ð±Ñ‘Ñ€Ñ‚ÐºÐ¸ Ð´Ð»Ñ Ñ‡Ð°Ñ‚Ð° Ð½Ð° ÑÐ°Ð¹Ñ‚Ðµ*/
+/*заголовок обёртки для чата на сайте*/
 .pit-chat-area .pit-chat-area-header {
     padding: 10px 0 0 15px;
 }
 
 
-/*Ñ‚ÐµÐºÑÑ‚ Ð·Ð°Ð³Ð¾Ð»Ð¾Ð²ÐºÐ° Ð¾Ð±Ñ‘Ñ€Ñ‚ÐºÐ¸ Ð´Ð»Ñ Ñ‡Ð°Ñ‚Ð° Ð½Ð° ÑÐ°Ð¹Ñ‚Ðµ*/
+/*текст заголовка обёртки для чата на сайте*/
 .pit-chat-area .pit-chat-area-header .pit-chat-area-header-text {
     font-family: 'Inter';
     font-style: normal;
@@ -85,7 +72,7 @@
     
 
 
-/*ÐºÐ½Ð¾Ð¿ÐºÐ° Ð·Ð°ÐºÑ€Ñ‹Ñ‚Ð¸Ñ Ñ‡Ð°Ñ‚Ð° Ð½Ð° Ð¾Ð±Ñ‘Ñ€Ñ‚ÐºÐµ*/
+/*кнопка закрытия чата на обёртке*/
 .pit-chat-area .pit-chat-area-header .pit-chat-close-btn {
     width: 42px;
     height: 42px;
@@ -100,7 +87,7 @@
     box-sizing: border-box;
 }
 
-/*Ð²Ð½ÑƒÑ‚Ñ€ÐµÐ½Ð½Ð¾ÑÑ‚ÑŒ Ñ‡Ð°Ñ‚Ð°*/
+/*внутренность чата*/
 .k-chat {
     background-color: #f7f7f9;
     border-color: transparent;
@@ -109,14 +96,14 @@
 	margin-top: 2px;				 
 }
 
-/*Ð¿Ð¾Ð»Ðµ Ð²Ð²Ð¾Ð´Ð°*/
+/*поле ввода*/
 div.k-message-box {
     /* border-radius: 10px; */
     align-items: center;
 	background-color: #e8e8e8 !important;								  
 }
 
-/*ÐºÐ°Ñ€Ñ‚Ð¸Ð½ÐºÐ° Ð·Ð°Ð³Ñ€ÑƒÐ·ÐºÐ¸ Ñ„Ð°Ð¹Ð»Ð°*/
+/*картинка загрузки файла*/
 div.k-message-box .pit-uploadfile-image {
     cursor: pointer;
     width: 20px;
@@ -124,7 +111,7 @@ div.k-message-box .pit-uploadfile-image {
     padding-right: 3px;					   
 }
 
-/*Ñ‚extarea*/
+/*тextarea*/
 .k-message-box label {
     font-weight: 400!important;
     font-size: 14px!important;
@@ -134,24 +121,24 @@ div.k-message-box .pit-uploadfile-image {
 }
 
 
-/*Ð½Ð°Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ ÑˆÑ€Ð¸Ñ„Ñ‚Ð° Ð½Ð° ÑÐ¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ñ*/
+/*назначение шрифта на сообщения*/
 .k-chat .k-card-body,
 .k-chat .k-card-body .ac-textBlock,
 .k-chat .k-message {
     font-family: 'Geometria' !important;
 }
 
-/*Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ Ñ ÑÐ¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸ÑÐ¼Ð¸*/
+/*область с сообщениями*/
 .k-chat .k-message-list-content {
 	padding: 3px 15px 3px 5px;
  }
 
-/*Ð²Ñ€ÐµÐ¼Ñ Ð² Ð¸ÑÑ…Ð¾Ð´ÑÑ‰ÐµÐ¼ ÑÐ¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ð¸*/
+/*время в исходящем сообщении*/
 .k-message-time {
 
 }
 
-/*ÑÐ¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ñ ÐºÐ»Ð¸ÐµÐ½Ñ‚Ð°*/
+/*сообщения клиента*/
 .k-chat .k-alt .k-bubble {
     border-color: #dcdbdb;
     color: #222;
@@ -160,7 +147,7 @@ div.k-message-box .pit-uploadfile-image {
     margin-bottom: 5px;
 }
 
-/*Ð²Ð½ÐµÑˆÐ½ÑÑ Ð¾Ð±Ð¾Ð»Ð¾Ñ‡ÐºÐ° ÑÐ¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ñ Ð±Ð¾Ñ‚Ð°/Ð¾Ð¿ÐµÑ€Ð°*/
+/*внешняя оболочка сообщения бота/опера*/
 .k-chat .k-card{
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -172,7 +159,7 @@ div.k-message-box .pit-uploadfile-image {
     border: 0;
 }
 
-/*ÐºÐ¾Ð½Ñ‚ÐµÐ½Ñ‚ ÑÐ¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ñ Ð±Ð¾Ñ‚Ð°/Ð¾Ð¿ÐµÑ€Ð°*/
+/*контент сообщения бота/опера*/
 .k-card-body > .ac-container > .ac-container:last-child {
     background-color: #bcd9f5;
 	background-image: none,linear-gradient(to bottom,rgba(255,255,255,.3) 0,rgba(255,255,255,0) 100%);
@@ -182,17 +169,17 @@ div.k-message-box .pit-uploadfile-image {
     border-style: solid;
 }
 
-/*ÐºÐ°Ñ€Ñ‚Ð¸Ð½ÐºÐ¸*/
+/*картинки*/
 .k-card-body .ac-container .ac-image {
     margin: 2px 5px;
 }
 
-/*Ð¾Ð±Ð»Ð°ÑÑ‚ÑŒ ÐºÐ½Ð¾Ð¿Ð¾Ðº*/
+/*область кнопок*/
 .k-chat .k-quick-replies {
 
 }
 
-/*ÐºÐ½Ð¾Ð¿ÐºÐ¸*/
+/*кнопки*/
 .k-chat .k-quick-replies .k-quick-reply {
     border-color: #26CF77;
     color: #408020;
