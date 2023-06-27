@@ -47,13 +47,14 @@
     margin: 0 20px 65px 0;
     padding: 40px 0 0 0;
     border: none;
+	width: 1000px;
 }
 
 #pit-chat-area {
     background: #FFFFFF;
     box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.12);
     border-radius: 16px;
-	width: 1000px;
+	
 }
 /*заголовок обёртки для чата на сайте*/
 .pit-chat-area .pit-chat-area-header {
