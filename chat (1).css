@@ -53,6 +53,7 @@
     background: #FFFFFF;
     box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.12);
     border-radius: 16px;
+	width: 1000px;
 }
 /*заголовок обёртки для чата на сайте*/
 .pit-chat-area .pit-chat-area-header {
@@ -81,7 +82,7 @@
     float: right;
     right: 5px;
     top: 500px;
-    background-color: #4f46c0;
+    background-color: ##c451c4;
     border-radius: 50%;
     padding: 8px;
     box-sizing: border-box;
@@ -140,9 +141,9 @@ div.k-message-box .pit-uploadfile-image {
 
 /*сообщения клиента*/
 .k-chat .k-alt .k-bubble {
-    border-color: #dcdbdb;
+    border-color: #b3bcd0;
     color: #222;
-    background-color: #dedede;
+    background-color: #c9d1e2;
 	background-image: none,linear-gradient(to bottom,rgba(255,255,255,.3) 0,rgba(255,255,255,0) 100%);
     margin-bottom: 5px;
 }
@@ -161,10 +162,10 @@ div.k-message-box .pit-uploadfile-image {
 
 /*контент сообщения бота/опера*/
 .k-card-body > .ac-container > .ac-container:last-child {
-    background-color: #bcd9f5;
+    background-color: #dcd1f8;
 	background-image: none,linear-gradient(to bottom,rgba(255,255,255,.3) 0,rgba(255,255,255,0) 100%);
     color: #222;
-	border-color: #b1d4f5;
+	border-color: #c2b6e2;
     border-width: 1px;
     border-style: solid;
 }
@@ -181,15 +182,15 @@ div.k-message-box .pit-uploadfile-image {
 
 /*кнопки*/
 .k-chat .k-quick-replies .k-quick-reply {
-    border-color: #26CF77;
-    color: #408020;
-    background-color: transparent;
-    border-radius: 10px;
+    border-color: #003ead;
+        color: #003ead;
+        background-color: transparent;
+        border-radius: 10px;
 }
 .k-chat .k-quick-replies .k-quick-reply:hover {
-    border-color: #26CF77;
-    color: #fff;
-    background-color: #26CF77;
+            border-color: #003ead;
+            color: #fff;
+            background-color: #003ead;
 }
 
 .sub-head {
