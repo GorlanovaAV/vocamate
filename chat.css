@@ -137,9 +137,9 @@ div.k-message-box .pit-uploadfile-image {
 
 /*сообщения клиента*/
 .k-chat .k-alt .k-bubble {
-    border-color: #dcdbdb;
+    border-color: #d6a0ff;
     color: #222;
-    background-color: #dedede;
+    background-color: #bdaae8;
 	background-image: none,linear-gradient(to bottom,rgba(255,255,255,.3) 0,rgba(255,255,255,0) 100%);
     margin-bottom: 5px;
 }
