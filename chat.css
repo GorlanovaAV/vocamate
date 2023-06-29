@@ -161,7 +161,7 @@ div.k-message-box .pit-uploadfile-image {
 
 /*контент сообщения бота/опера*/
 .k-card-body > .ac-container > .ac-container:last-child {
-    background-color: #bcd9f5;
+    background-color: #fffc4a;
 	background-image: none,linear-gradient(to bottom,rgba(255,255,255,.3) 0,rgba(255,255,255,0) 100%);
     color: #222;
 	border-color: #b1d4f5;
