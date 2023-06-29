@@ -23,6 +23,7 @@
     src: url('https://lk.vocamate.ru/Inter/Inter-Regular.woff2') format('woff2'), url('https://lk.vocamate.ru/Inter/Inter-Regular.woff') format('woff');
 }
 
+
 #pit-chat-frame {
     border-radius: 16px;
 }
@@ -58,6 +59,7 @@
     padding: 10px 0 0 15px;
 }
 
+
 /*текст заголовка обёртки для чата на сайте*/
 .pit-chat-area .pit-chat-area-header .pit-chat-area-header-text {
     font-family: 'Inter';
@@ -68,6 +70,8 @@
     color: #101214;
 }
     
+
+
 /*кнопка закрытия чата на обёртке*/
 .pit-chat-area .pit-chat-area-header .pit-chat-close-btn {
     width: 42px;
@@ -136,9 +140,9 @@ div.k-message-box .pit-uploadfile-image {
 
 /*сообщения клиента*/
 .k-chat .k-alt .k-bubble {
-    border-color: #a4d3c3;
+    border-color: #dcdbdb;
     color: #222;
-    background-color: #9dd4c1;
+    background-color: #dedede;
 	background-image: none,linear-gradient(to bottom,rgba(255,255,255,.3) 0,rgba(255,255,255,0) 100%);
     margin-bottom: 5px;
 }
@@ -157,10 +161,10 @@ div.k-message-box .pit-uploadfile-image {
 
 /*контент сообщения бота/опера*/
 .k-card-body > .ac-container > .ac-container:last-child {
-    background-color: #d2c7ff;
+    background-color: #bcd9f5;
 	background-image: none,linear-gradient(to bottom,rgba(255,255,255,.3) 0,rgba(255,255,255,0) 100%);
     color: #222;
-	border-color: #c2bbdb;
+	border-color: #b1d4f5;
     border-width: 1px;
     border-style: solid;
 }
@@ -177,15 +181,15 @@ div.k-message-box .pit-uploadfile-image {
 
 /*кнопки*/
 .k-chat .k-quick-replies .k-quick-reply {
-    border-color: #441478;
-    color: #441478;
+    border-color: #26CF77;
+    color: #408020;
     background-color: transparent;
     border-radius: 10px;
 }
 .k-chat .k-quick-replies .k-quick-reply:hover {
-    border-color: #4aa283;
+    border-color: #26CF77;
     color: #fff;
-    background-color: #2f9a74;
+    background-color: #26CF77;
 }
 
 .sub-head {
@@ -216,6 +220,184 @@ li.k-item {
 .k-card-body {
     width: 200px!important;
 }
+
+
+
+
+/*----------------------------------------------------------------*/
+
+/*дополнительные шрифты*/
+@font-face{font-family:Geometria;font-weight:normal;font-style:normal;src:url(/Geometria/Geometria-Regular.eot);src:url(/Geometria/Geometria-Regular.eot?#iefix) format("embedded-opentype"),url(/Geometria/Geometria-Regular.woff) format("woff"),url(/Geometria/Geometria-Regular.ttf) format("truetype")}
+@font-face{font-family:Geometria;font-weight:normal;font-style:italic;src:url(/Geometria/Geometria-RegularItalic.eot);src:url(/Geometria/Geometria-RegularItalic.eot?#iefix) format("embedded-opentype"),url(/Geometria/Geometria-RegularItalic.woff) format("woff"),url(/Geometria/Geometria-RegularItalic.ttf) format("truetype")}
+@font-face{font-family:Geometria;font-weight:500;font-style:normal;src:url(/Geometria/Geometria-Medium.eot);src:url(/Geometria/Geometria-Medium.eot?#iefix) format("embedded-opentype"),url(/Geometria/Geometria-Medium.woff) format("woff"),url(/Geometria/Geometria-Medium.ttf) format("truetype")}
+@font-face{font-family:Geometria;font-weight:500;font-style:italic;src:url(/Geometria/Geometria-MediumItalic.eot);src:url(/Geometria/Geometria-MediumItalic.eot?#iefix) format("embedded-opentype"),url(/Geometria/Geometria-MediumItalic.woff) format("woff"),url(/Geometria/Geometria-MediumItalic.ttf) format("truetype")}
+@font-face{font-family:Geometria;font-weight:600;font-style:normal;src:url(/Geometria/Geometria-Bold.eot);src:url(/Geometria/Geometria-Bold.eot?#iefix) format("embedded-opentype"),url(/Geometria/Geometria-Bold.woff) format("woff"),url(/Geometria/Geometria-Bold.ttf) format("truetype")}
+@font-face{font-family:Geometria;font-weight:600;font-style:italic;src:url(/Geometria/Geometria-BoldItalic.eot);src:url(/Geometria/Geometria-BoldItalic.eot?#iefix) format("embedded-opentype"),url(/Geometria/Geometria-BoldItalic.woff) format("woff"),url(/Geometria/Geometria-BoldItalic.ttf) format("truetype")}
+@font-face{font-family:Geometria;font-weight:700;font-style:normal;src:url(/Geometria/Geometria-ExtraBold.eot);src:url(/Geometria/Geometria-ExtraBold.eot?#iefix) format("embedded-opentype"),url(/Geometria/Geometria-ExtraBold.woff) format("woff"),url(/Geometria/Geometria-ExtraBold.ttf) format("truetype")}
+@font-face{font-family:Geometria;font-weight:700;font-style:italic;src:url(/Geometria/Geometria-ExtraBoldItalic.eot);src:url(/Geometria/Geometria-ExtraBoldItalic.eot?#iefix) format("embedded-opentype"),url(/Geometria/Geometria-ExtraBoldItalic.woff) format("woff"),url(/Geometria/Geometria-ExtraBoldItalic.ttf) format("truetype")}
+@font-face{font-family:Geometria;font-weight:900;font-style:normal;src:url(/Geometria/Geometria-Heavy.eot);src:url(/Geometria/Geometria-Heavy.eot?#iefix) format("embedded-opentype"),url(/Geometria/Geometria-Heavy.woff) format("woff"),url(/Geometria/Geometria-Heavy.ttf) format("truetype")}
+@font-face{font-family:Geometria;font-weight:900;font-style:italic;src:url(/Geometria/Geometria-HeavyItalic.eot);src:url(/Geometria/Geometria-HeavyItalic.eot?#iefix) format("embedded-opentype"),url(/Geometria/Geometria-HeavyItalic.woff) format("woff"),url(/Geometria/Geometria-HeavyItalic.ttf) format("truetype")}
+
+/*кнопка открытия/закрытия чата на сайте*/
+#pit-chat-btn {
+    width: 47px;
+	display: block !important;
+}
+/*кнопка открытия/закрытия чата на сайте в состоянии "Открыть"*/
+#pit-chat-btn[data-state='on'] {
+}
+
+/*кнопка открытия/закрытия чата на сайте в состоянии "Закрыть"*/
+#pit-chat-btn[data-state='off'] {
+    display: none !important;
+}
+
+/*обёртка для чата на сайте*/
+.pit-chat-area {
+    background-color: #dcdce0;
+    margin: 0 20px 20px 0;    
+}
+    /*заголовок обёртки для чата на сайте*/
+    .pit-chat-area .pit-chat-area-header {  
+    }
+
+        /*текст заголовка обёртки для чата на сайте*/
+        .pit-chat-area .pit-chat-area-header .pit-chat-area-header-text {
+        }
+
+        /*кнопка закрытия чата на обёртке*/
+        .pit-chat-area .pit-chat-area-header .pit-chat-close-btn {
+        }
+
+/*внутренность чата*/
+.k-chat {
+    background-color: #f7f7f9;
+    border-color: transparent;
+	max-width: 1600px;
+	border-width: 0px;
+	margin-top: 2px;				 
+}
+
+/*поле ввода*/
+div.k-message-box {
+    /* border-radius: 10px; */
+    align-items: center;
+	background-color: #e8e8e8 !important;								  
+}
+
+/*картинка загрузки файла*/
+div.k-message-box .pit-uploadfile-image {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    padding-right: 3px;					   
+}
+
+/*назначение шрифта на сообщения*/
+.k-chat .k-card-body,
+.k-chat .k-card-body .ac-textBlock,
+.k-chat .k-message {
+    font-family: 'Geometria' !important;
+}
+
+/*область с сообщениями*/
+.k-chat .k-message-list-content {
+	padding: 3px 15px 3px 5px;
+ }
+
+/*время в исходящем сообщении*/
+.k-message-time {
+    /*width: 30px;
+    overflow: hidden;*/
+}
+
+/*сообщения клиента*/
+.k-chat .k-alt .k-bubble {
+    border-color: #dcdbdb;
+    color: #222;
+    background-color: #dedede;
+	background-image: none,linear-gradient(to bottom,rgba(255,255,255,.3) 0,rgba(255,255,255,0) 100%);
+    margin-bottom: 5px;
+}
+
+/*внешняя оболочка сообщения бота/опера*/
+.k-chat .k-card{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	    
+	/* padding-top: 0 !important; */
+    /* padding-bottom: 0 !important; */
+}
+
+	.k-chat .k-card,
+	.k-chat .k-card .k-card-body {
+		background-color: inherit;
+		border: 0;
+	}
+
+/*контент сообщения бота/опера*/
+.k-card-body > .ac-container > .ac-container:last-child {
+    background-color: #bcd9f5;
+	background-image: none,linear-gradient(to bottom,rgba(255,255,255,.3) 0,rgba(255,255,255,0) 100%);
+    color: #222;
+	border-color: #b1d4f5;
+    border-width: 1px;
+    border-style: solid;
+}
+
+/*картинки*/
+.k-card-body .ac-container .ac-image {
+    margin: 2px 5px;
+}
+
+/*область кнопок*/
+.k-chat .k-quick-replies {
+
+}
+
+    /*кнопки*/
+    .k-chat .k-quick-replies .k-quick-reply {
+        border-color: #26CF77;
+        color: #408020;
+        background-color: transparent;
+        border-radius: 10px;
+    }
+        .k-chat .k-quick-replies .k-quick-reply:hover {
+            border-color: #26CF77;
+            color: #fff;
+            background-color: #26CF77;
+        }
+
+.sub-head {
+	vertical-align: top;
+	/* text-decoration: underline; */
+	font-weight: bold;
+	font-size: 1.2em;
+    color: #324761;
+	height: 2em;
+    padding-top: 8px;
+}
+
+	li.k-item {
+		/* border: 1px solid !important; */
+		/* margin: 2px 0 !important; */
+		background-color: #bcd9f5;
+	}
+	.k-state-selected .list-box-item {
+		background-color: #bcd9f5 !important;
+	}
+		.list-box-item:hover {
+			/* border: 0; */
+		/* border: 1px solid !important; */
+		/* margin: 2px 0 !important; */
+		background-color: #bdb4af;
+}					 
+
+
+
+/*----------------------pit-chat---------------------------*/
+
+
 
 .pit-chat-btn {
 	cursor: pointer;
